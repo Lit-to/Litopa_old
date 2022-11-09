@@ -1,0 +1,1 @@
+scoreboard players remove 時間(秒): settime 600

@@ -1,0 +1,1 @@
+{"pools":[{"rolls":1,"entries":[{"type":"item","weight":1,"name":"minecraft:lead","functions":[{"function":"set_count","count":1},{"function":"set_name","name":[{"text":"穴抜けのヒモ","color":"dark_green","bold":true}]},{"function":"set_lore","lore":[{"text":"投げて使用","color":"white"},{"text":"ランダムなスポーン地点にワープ","color":"yellow","bold":true}]}]}]}]}

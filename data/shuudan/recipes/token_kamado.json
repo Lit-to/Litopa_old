@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:yellow_dye"
+    },
+    "result": "minecraft:bowl",
+    "experience": 0,
+    "cookingtime": 60
+}

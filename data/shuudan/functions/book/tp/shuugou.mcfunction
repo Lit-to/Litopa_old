@@ -1,0 +1,1 @@
+execute at @e[tag=finish] run tp @a[gamemode=adventure] ~ ~ ~

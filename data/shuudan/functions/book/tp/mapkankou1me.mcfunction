@@ -1,0 +1,1 @@
+tp @s @e[tag=spawn,limit=1,sort=nearest]

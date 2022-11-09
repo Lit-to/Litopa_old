@@ -1,0 +1,462 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:golden_sword",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-2001383109,242435732,-1256351796,-2046829049],Slot:\"mainhand\"}]}"
+						},
+						{
+							"function": "set_damage",
+							"damage": 0.01
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "不安な剣",
+									"color": "gold",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "つよいけどもろい",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:golden_axe",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1733935390,881606771,-2063743100,-200310398],Slot:\"mainhand\"}]}"
+						},
+						{
+							"function": "set_damage",
+							"damage": 0.3
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "一応修復したオノ",
+									"color": "gold",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "弱いけど何度も使える",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:cooked_beef",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 2
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "めっちゃうまい肉",
+									"color": "yellow",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "おいしい",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:dried_kelp",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 3
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "めっちゃうまい昆布",
+									"color": "yellow",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "おいしい",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Unbreakable:0b,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+						},
+						{
+							"function": "set_damage",
+							"damage": 0.001
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "クモの糸で作った弓",
+									"color": "gold",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "つよいけどもろい",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:spectral_arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "めっちゃすごい矢",
+									"color": "gold",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "光るかも",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_horse_armor",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}]}"
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "迷彩バッジ｢とたねい｣",
+									"color": "dark_green",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "投げて使用",
+									"color": "white"
+								},
+								{
+									"text": "透明化",
+									"color": "yellow",
+									"bold": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:minecart",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "盲目バッジ｢ぴゅーお｣",
+									"color": "dark_green",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "投げて使用",
+									"color": "white"
+								},
+								{
+									"text": "周辺に鬼がいる場合盲目",
+									"color": "yellow",
+									"bold": true
+								},
+								{
+									"text": "自分に移動速度低下",
+									"color": "yellow",
+									"bold": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:cocoa_beans",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "たこやきソース",
+									"color": "dark_aqua",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "作業台上段で使用",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:green_dye",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "青のり",
+									"color": "dark_aqua",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "作業台中段左右で使用",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:purple_dye",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "たこやきの生地",
+									"color": "dark_aqua",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "作業台下段で使用",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:pufferfish",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "タコ",
+									"color": "dark_aqua",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "作業台中央で使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:iron_horse_armor",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "加速バッジ｢ぬのはぁ｣",
+									"color": "dark_green",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "投げて使用",
+									"color": "white"
+								},
+								{
+									"text": "移動速度上昇",
+									"color": "yellow",
+									"bold": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 1
+				},
+				{
+					"type": "empty",
+					"weight": 1
+				},
+				{
+					"type": "empty",
+					"weight": 1
+				},
+				{
+					"type": "empty",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+execute if score 4 tick matches 1 at @p[tag=bousou] run scoreboard players set 13 tick 1

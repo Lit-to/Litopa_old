@@ -1,0 +1,7 @@
+scoreboard objectives setdisplay sidebar.team.green mapvote
+scoreboard players set MAP1: mapvote 0
+scoreboard players set MAP2: mapvote 0
+scoreboard players set MAP3: mapvote 0
+scoreboard players enable @a votepl
+tellraw @a ["",{"text":"====MAP\u9078\u629e====\n\u2193\u3084\u308a\u305f\u3044MAP\u3092\u62bc\u3057\u3066\u306d\uff01\u2193","bold":true},{"text":"\n\n"},{"text":">>MAP1<<","color":"gold","clickEvent":{"action":"run_command","value":"/trigger votepl set 1"},"hoverEvent":{"action":"show_text","contents":"MAP1\u306b\u6295\u7968\u3059\u308b"}},{"text":"\n\u99c5\u30de\u30c3\u30d7\u3002\u72ed\u3044\u3088\u3046\u3067\u5165\u308a\u7d44\u3093\u3067\u3044\u3066\u7d50\u69cb\u96e3\u3057\u3044\u304b\u3082\uff1f\n\n"},{"text":">>MAP2<<","color":"gold","clickEvent":{"action":"run_command","value":"/trigger votepl set 2"},"hoverEvent":{"action":"show_text","contents":"MAP2\u306b\u6295\u7968\u3059\u308b"}},{"text":"\n\u5ec3\u75c5\u9662\u30de\u30c3\u30d7\u3002\u3068\u306b\u304b\u304f\u5e83\u3044\u4ee3\u308f\u308a\u306b\u898b\u901a\u3057\u306f\u826f\u3044\u300210\u4eba\u304f\u3089\u3044\u304c\u6700\u9069\u3002\n\n"},{"text":">>MAP3<<","color":"gold","clickEvent":{"action":"run_command","value":"/trigger votepl set 3"},"hoverEvent":{"action":"show_text","contents":"MAP3\u6295\u7968\u3059\u308b"}},{"text":"\n\u753a\u30de\u30c3\u30d7\u3002\u307f\u3093\u306a\u3067\u4f5c\u3063\u305f\u306e\u3067\u304a\u3082\u3057\u308d\u3044\u3002\n"},{"text":"==============","bold":true}]
+playsound entity.experience_orb.pickup master @p ~ ~ ~
